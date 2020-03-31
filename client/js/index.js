@@ -1,6 +1,5 @@
 $(function(){
   var l = new Login();
-  console.log("importe la base de datos de la carpeta php a mysql");
 })
 
 class Login {

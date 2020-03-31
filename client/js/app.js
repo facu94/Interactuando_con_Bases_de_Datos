@@ -67,7 +67,6 @@ class EventsManager {
                   this.eliminarEvento(event, jsEvent)
                   $('.calendario').fullCalendar('removeEvents', event.id);
             }
-
           }
         })
     }
@@ -257,3 +256,5 @@ function initForm(){
   })
 
 }
+
+$('.calendario').fullCalendar('today');

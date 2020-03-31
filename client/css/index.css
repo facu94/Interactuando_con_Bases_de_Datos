@@ -1,4 +1,4 @@
-@import 'app.css';
+
 
 body{
   background-image: url('../img/fondo.jpg');
@@ -22,4 +22,11 @@ body{
 div.btn-container{
   display: flex;
   justify-content: center;
+}
+#message {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background: green;
+  margin:10px;
 }
